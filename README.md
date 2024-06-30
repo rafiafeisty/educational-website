@@ -5,7 +5,7 @@
 
 - 📫 How to reach me **rafia.habib135@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with me</h3>
 <p align="left">
 </p>
 
