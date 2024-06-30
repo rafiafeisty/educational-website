@@ -1,0 +1,272 @@
+body{
+    background-image:url(https://asset.routledge.com/rt-files/Faculty/Laura+Maisey/10+tips+for+successful+studying+3+OP.jpg);
+}
+
+.bt1 {
+    margin: 0 10px 0 10px;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+}
+.edu-nu1{
+    font-size:36px;
+    text-align: left;
+    margin:200px 0 0 200px;
+    background: none;
+    position: relative;
+    animation: fadeIn 3s ease-in-out 1;
+    color:rgb(207, 227, 243);
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+.edu-nu2{
+   margin-top:20px;
+    text-align: left;
+    font-weight: normal;
+    font-family: Calibri;
+}
+.edu-nu3{
+    font-weight: bold;
+    font-size: 50px;
+}
+@media (max-width: 533px) {
+    .edu-nu1 {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+}
+body.about{
+    background-image: none;
+    background:linear-gradient(rgb(27, 46, 50), white);
+    z-index: -3;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body.about::before{
+    background-image: none;
+    background:linear-gradient(rgb(72, 124, 134), white);
+    z-index: -3;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.edu-abu1 {
+    padding: 20px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+}
+.edu-abu1{
+    z-index: 5;
+    margin:60px 0 10px 70px;
+    font-weight: 45px;
+    background: none;
+}
+.edu-abu2{
+    color: rgb(6, 83, 83);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin:10px auto auto 70px;
+    font-family: fantasy;
+    animation: fadeIn 1s ease-in-out 1;
+}
+.edu-abu3{
+    color:rgb(4, 39, 49);
+    font-size: 40px;
+    margin:10px 0 0 50px;
+    padding-bottom: 50px;
+    padding-left:60px;
+    font-family: serif;
+    font-weight: bold;
+    text-decoration: underline;
+    animation: fadeIn 2s ease-in-out 1;
+}
+.edu-abu4{
+    color:rgb(9, 52, 66);
+    margin:10px 0 0 50px;
+    font-size: 40px;
+    line-height: 1.5;
+    font-family: serif;
+    padding-left:60px;
+    animation: fadeIn 3s ease-in-out 1;
+}
+hr.hr-abu {
+    width: 80%;
+    height: 3px;
+    background-color: black;
+    border: none;
+    margin: 20px auto;
+    animation: fadeIn 1s ease-in-out 1;
+}
+body.contact{
+    background-image: url(https://i.pinimg.com/564x/eb/a6/fd/eba6fdf39c8373aa6241307f491fe7e6.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+    
+body.contact::before{
+    background-image: url(https://i.pinimg.com/564x/eb/a6/fd/eba6fdf39c8373aa6241307f491fe7e6.jpg);
+    z-index: -3;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.edu-con1{
+    width:50%;
+    margin-left: 30px;
+    background: none;
+    color:black;
+    height:500px;
+    font-size: 25px;
+    animation: fadeIn 3s ease-in-out 1;
+}
+.edu-con2{
+    color:black;
+    font-family: fantasy;
+    font-size:60px;
+    text-align: center;
+    margin: 40px 0 0 50px;
+    animation: fadeIn 3s ease-in-out 1;
+}
+.edu-con3{
+    text-align:center;
+    margin:30px 0 40px 0;
+    font-size: 25px;
+    animation: fadeIn 3s ease-in-out 1;
+}
+.custom-checkbox {
+    width: 20px; 
+    height: 20px;
+  }
+  .edu-con4{
+    margin-left:4px;
+  }
+.edu-con5{
+    margin-top:18px;
+}
+@media(max-width:666){
+    body.contact{
+        background-size: cover;
+    }
+    .edu-con2{
+        margin: unset;
+        text-align: left;
+    }
+    .edu-con3{
+        margin: unset;
+        text-align: left;
+        font-size: 15px;
+    }
+}
+@media(max-width: 666px) {
+    body.about {
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .edu-abu2 {
+        margin: 20px 0 30px 0px;
+        text-align: center;
+        font-size: 30px;
+        padding: 0;
+    }
+    .edu-abu3 {
+        text-align: left;
+        font-size: 25px;
+        margin: 20px 0 30px 0px;
+        padding: 0;
+    }
+    .edu-abu4 {
+        margin: 0;
+        line-height: 2;
+        font-size: 20px;
+        padding: 0;
+        text-align: left;
+        width: 100%;
+        font-weight: 200;
+    }
+    .edu-abu1 {
+        font-weight: normal;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        text-align: left;
+    }
+}
+body.course{
+    background-image: none;
+    z-index: -3;
+    background-attachment: fixed;
+    background-size: cover;
+    background: linear-gradient(white,white);
+}
+body.course::before{
+    background-image: none;
+    z-index: -3;
+    background-attachment: fixed;
+    background-size: cover;
+    background: linear-gradient(white,white);
+}
+.edu-cour1{
+    text-align:center;
+    font-size: 40px;
+    color:rgb(35, 134, 132);
+    font-family: fantasy;
+    margin-top:40px;
+}
+.edu-cour2{
+    margin:50px 40px 30px 10px;
+}
+.container{
+    animation: fadeIn 3s ease-in-out 1;
+}
+@media(max-width:666px){
+    .edu-cour1{
+        font-size: 30px;
+    }
+}
+body.certification{
+    background-image: url(https://t4.ftcdn.net/jpg/04/87/04/09/360_F_487040910_Iy4s65cUnayFUO0oRRmprKjypSvDq1Ju.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+body.certification::before{
+    background-image: url(https://t4.ftcdn.net/jpg/04/87/04/09/360_F_487040910_Iy4s65cUnayFUO0oRRmprKjypSvDq1Ju.jpg);
+    z-index: -3;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.edu-cert1{
+    font-size: 50px;
+    color:rgb(34, 129, 143);
+    text-align: center;
+    margin: 40px 0 30px 0;
+    font-family: fantasy;
+    animation: fadeIn 3s ease-in-out 1;
+}
+.edu-cert2{
+    width:40%;
+    color:black;
+    font-size: 30px;
+    font-family: serif;
+    margin: auto;
+    padding: 40px 0 30px 0;
+    animation: fadeIn 3s ease-in-out 1;
+}
